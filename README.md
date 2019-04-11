@@ -7,11 +7,9 @@
 
 2. create-react-app was used to give you a starting point. cd into c4-react and run npm start.
 
-3. You are free to use Bootstrap 
+3. You are free to use Bootstrap - it's included from CDN.
 
-4. This assessment is not intended to be built with a framework like Angular or React. 
-
-5. Create your own git branch to work in – DO NOT work in the master branch. We suggest committing often and writing useful commit messages. When you’re finished with the assessment, ideally all changes will be committed and no untracked files remain. There’s no need to push.
+4. Create your own git branch to work in – DO NOT work in the master branch. We suggest committing often and writing useful commit messages. When you’re finished with the assessment, ideally all changes will be committed and no untracked files remain. There’s no need to push.
 
 Included with this project are three images that you should use as your reference for styling the pages. 
 They are located in the ‘reference’ folder. Note the 3 breakpoints:
