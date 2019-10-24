@@ -1,0 +1,10 @@
+.main-footer {
+    background: #191919;
+    color: #FFFFFF;
+    height: 200px;
+}
+
+.main-footer > p {
+    padding: 25px 50px 0 0;
+    text-align: right;
+}

@@ -1,0 +1,5 @@
+.hero-main {
+    background: url('./../../images/hero.jpg') no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+}
