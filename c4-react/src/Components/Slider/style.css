@@ -1,5 +1,68 @@
 .hero-main {
-    background: url('./../../images/hero.jpg') no-repeat;
+    background: #EFF2E1 url('./../../images/hero.jpg') no-repeat;
     background-size: contain;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.flex-row .item-1 {
+    flex-grow: 1.5;
+}
+
+.flex-row .item-2 {
+    flex-grow: 1.7;
+    margin: 10px;
+}
+
+.item-2 .top-row h1{
+    margin: 0;
+    font-weight: 600;
+}
+
+.flex-column > .middle-row {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 0;
+}
+
+.middle-row .left {
+    margin: 5px 25px 5px 5px;
+}
+
+.middle-row .right > h1, h2, h3 {
+    color: #722561;
+    margin: 0;
+}
+
+.middle-row .right .p-margin {
+    margin: 0;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.slider-image {
+    width: 260px;
+    height: 164px;
+    line-height: 164px;
+    text-align: center;
+    background-color: #C5C5C5;
 }

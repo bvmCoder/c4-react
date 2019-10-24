@@ -22,36 +22,32 @@ class Slider extends Component {
 
     render() {
         return (
-            <div className="hero-main">
-                <div className="HeroGrayBack smallScreen">
-                    <p className="HeroGrayP smallScreen">{'260 x 164'}</p>
+            <div className="flex-row hero-main">
+                <div className="flex-column item-1">
+
                 </div>
-                <div className="row">
-                    <div className="col-md-5">&nbsp;</div>
-                    <div className="col-md-7">
-                        <p className="noMargin big bold marginTop content">{'More Rewards. Not More Rules.'}</p>
-                        <p className="noMargin big bold marginBtm content">{'Bonus Rewards Card.'}</p>
-                        <div className="noMargin big bold content">
-                            <div className="row">
-                                <div className="col-md-6 HeroGrayBack largeScreen">
-                                    <p className="HeroGrayP largeScreen">{'260 x 164'}</p>
-                                </div>
-                                <div className="col-md-6">
-                                    <h2 className="noMargin bold big-text purple">{'2,500 bonus'}</h2>
-                                    <h3 className="noMargin bold big-text purple">{'rewards points'}</h3>
-                                    <p className="noMargin middle bold purple">{'after your first purchase'}</p>
-                                    <p className="noMargin small ">{"There's nothing to sign up for, nothing to choose, and no caps or limits on points you can earn."}</p>
-                                </div>
-                            </div>
+                <div className="flex-column item-2">
+                    <div className="top-row">
+                        <h1 className="rewards">{'More Rewards. Not More Rules.'}</h1>
+                        <h1 className="rewards">{'Bonus Rewards Card.'}</h1>
+                    </div>
+                    <div className="middle-row">
+                        <div className="slider-image left">
+                            {'260 X 164'}
                         </div>
-                        <div className="row marginBtm">
-                            <div className="col-md-8">&nbsp;</div>
-                            <Button className="col-md-3 CTA bold">Apply Now</Button>
+                        <div className="right">
+                            <h1 className="text-purple">{'2,500 bonus'}</h1>
+                            <h2 className="text-purple">{'rewards points'}</h2>
+                            <h3 className="text-purple">{'after your first purchase'}</h3>
+                            <p className="p-margin">{"There's nothing to sign up for, nothing to choose,"}</p>
+                            <p className="p-margin">{"and no caps or limits on points you can earn."}</p>
                         </div>
+                    </div>
+                    <div className="bottom-row">
+                        <Button className="apply-now">Apply Now</Button>
                     </div>
                 </div>
             </div>
-
         );
     }
 }

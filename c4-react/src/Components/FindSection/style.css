@@ -1,0 +1,30 @@
+.find-section {
+    padding: 15px;
+}
+
+.find-section .title-section {
+    font-size: 32px;
+    text-align: center;
+    color: #191919;
+    margin: 20px 0 10px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.purple-title {
+    color: #722561;
+    font-size: 24px;
+    margin-bottom: 10px;
+}

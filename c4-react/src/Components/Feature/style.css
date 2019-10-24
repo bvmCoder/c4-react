@@ -1,0 +1,15 @@
+section > h1{
+    font-size: 24px;
+    color: #722561;
+}
+
+section > p {
+    font-size: 14px;
+}
+
+section {
+    flex-grow: 1;
+    text-align: center;
+    width: 300px;
+    margin: 0 10px;
+}
